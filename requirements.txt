@@ -58,3 +58,4 @@ pypiwin32 ; sys_platform == 'win32'
 pyparsing==2.2.0
 swagger_spec_validator==2.7.3
 bravado_core==5.17.0
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
